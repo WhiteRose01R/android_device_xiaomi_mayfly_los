@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
 
 # Light
-$(call soong_config_set,xiaomi_sm8450_sensor_notifier,extension_lib,//device/xiaomi/mayfly:libsensor-notifier-ext-light)
+$(call soong_config_set,xiaomi_sm8450_sensor_notifier,extension_lib,//device/xiaomi/sm8450-common:libsensor-notifier-ext-udals)
 
 # Overlay
 PRODUCT_PACKAGES += \
